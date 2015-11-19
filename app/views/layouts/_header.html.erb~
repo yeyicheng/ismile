@@ -1,40 +1,17 @@
 <div class="header">
 	<div id='logo'>
-		<%= link_to (image_tag "logo_s.png", width: '300'), root_path %>
+		<%= link_to (image_tag "logo_s.png", height: '90'), root_path %>
 	</div>
 	<ul class='top-nav'>
-		<li><%= link_to 'initiative+Smile', pages_initiative_path %></li>
-		<li><%= link_to 'Career Development', pages_career_path %></li>			
-		<li><%= link_to 'Marketing', pages_marketing_path %></li>
-		<li><%= link_to 'iSmile Team', pages_people_path %></li>
-		<li><%= link_to 'Taskforce', pages_taskforce_path %></li>
-		<li><%= link_to 'Training', pages_training_path %></li>
-		<% if current_user %>
-			<li><%= link_to 'Logout', logout_path %></li> 
-		<% end %>
-	</ul>
-	<div class='head-img'></div>
-	<div class='img-txt'></div>
+		<li><%= link_to 'iCS Recruiter', '#' + "?locale=zh" %></li>
+		<li><%= link_to '回来啦' , '#' + '?locale=zh' %></li>
+	</ul>			
 	<ul class='site-nav'>
-		<li><%= link_to 'Home', root_path %></li>
-		<li><%= link_to 'About Us', '#' %>
-			<ul class="sub-site-nav">
-				<li><%= link_to 'Introduction', pages_about_path %></li>
-				<li><%= link_to '"initiative + Smile"', pages_initiative_path %></li>
-				<li><%= link_to 'The People', pages_people_path %></li>
-			</ul>
-		</li>
-		<li><%= link_to 'Service', '#' %>
-			<ul class="sub-site-nav">
-				<li><%= link_to 'Career Development', pages_career_path %></li>				
-				<li><%= link_to 'Marketing', pages_marketing_path %></li>
-				<li><%= link_to 'Service Quality', pages_service_path %></li>
-				<li><%= link_to 'Taskforce', pages_taskforce_path %></li>
-				<li><%= link_to 'Training', pages_training_path %></li>
-			</ul>
-		</li>
-		<li><%= link_to 'Online', sessions_new_path %></li>
-		<li><%= link_to 'Our Clients', pages_clients_path %></li>
-		<li><%= link_to 'Contact us', pages_contact_path %></li>
+		<li><%= link_to '关于我们', pages_about_path + "?locale=zh" %></li>
+		<li><%= link_to 'initiative+smile' , pages_initiative_path + "?locale=zh" %></li>
+		<li><%= link_to '海归及留学生综合服务平台', '#' + "?locale=zh" %></li>
+		<li><%= link_to '服务质量管理' , pages_service_path + "?locale=zh" %></li>
+		<li><%= link_to '整合营销', '#' + "?locale=zh" %></li>
+		<li><%= link_to '招聘及人事服务' , '#' + '?locale=zh' %></li>
 	</ul>
 </div>

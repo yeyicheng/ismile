@@ -1,5 +1,11 @@
-<h1>Welcome to iSmile Consulting & Solutions</h1>
-<div class="slider3" id="slider3">
+<%= link_to (image_tag "001_.jpg", width: '800', height: '500'), '#' %>
+<%= link_to (image_tag "002_.jpg", width: '800', height: '500'), '#' %>
+<%= link_to (image_tag "003_.jpg", width: '800', height: '500'), '#' %>
+<%= link_to (image_tag "004_.jpg", width: '800', height: '500'), '#' %>
+<%= link_to (image_tag "005_.jpg", width: '800', height: '500'), '#' %>
+<%= link_to (image_tag "006_.jpg", width: '800', height: '500'), '#' %>
+<%= link_to (image_tag "007_.jpg", width: '800', height: '500'), '#' %>
+<!--div class="slider3" id="slider3">
 	<ul>
 		<li><%= image_tag "1.png", width: "600px", height:"250px" %></li>
 		<li><%= image_tag "3.png", width: "600px", height:"250px" %></li>
@@ -12,10 +18,10 @@
 		<li>3</li>
 		<li>4</li>
 	</ul>
-</div>
+</div-->
 		
 <!-- 独立版本 -->
-<script src="../build/release/jwidget_1.0.0-min.js"></script>
+<!--script src="../build/release/jwidget_1.0.0-min.js"></script>
 <script type="text/javascript">
 	jWidget.ui.SlideView("slider3", {effect: 'scrolly fade'});
 </script>
@@ -25,16 +31,16 @@
 		text-decoration: none;
 		color: darkred;
 	}
-</style>
-<div style='margin: 20px 0 0 0;'>
+</style-->
+<!--div style='margin: 20px 0 0 0;'>
 Please find out more:
 <blockquote>
 	<ul style='list-style: circle; color: darkred;'>
 		<li><%= link_to 'What we do – overview to our services', pages_about_path %></li>
 		<li><%= link_to 'Our marketing research and insights', pages_marketing_path %></li>
 		<li><%= link_to 'Our training experience and services', pages_training_path %></li>
-		<li><%= link_to 'About our people', pages_contact_path %></li>
+		<li><%= link_to 'About our people', pages_people_path %></li>
 		<li><%= link_to 'Contact us', pages_contact_path %></li>
 	</ul>
 </blockquote>
-</div>
+</div-->

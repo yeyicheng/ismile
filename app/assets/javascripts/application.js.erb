@@ -85,11 +85,11 @@
   {
 	var thediv = document.getElementById(gblPhotoShufflerDivId);
 	var theimg = document.getElementById(gblPhotoShufflerImgId);
-	var theanchor = document.getElementById(gblPhotoShufflerAnchorId);
+	//var theanchor = document.getElementById(gblPhotoShufflerAnchorId);
 	
 	// copy div background-image to img.src
 	theimg.src = gblImg[gblOnDeck];
-	theanchor.href = gblHref[gblOnDeck];
+	//theanchor.href = gblHref[gblOnDeck];
 	window.status = gblHref[gblOnDeck]; // updates status bar (optional)
 	// set img opacity to 100
 	setOpacity(theimg,100);
