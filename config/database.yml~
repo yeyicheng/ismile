@@ -10,7 +10,6 @@
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
 development:
   adapter: mysql2
-  host: localhost
   encoding: utf8
   reconnect: false
   database: ismile_development
@@ -49,18 +48,18 @@ test:
 #  password: admin
 
 production:
-  adapter: postgresql
+  adapter: mysql2
   encoding: unicode
   database: ismile_production
   pool: 5
-  username: yyc
+  username: root
   password: admin
   
-production:
-  adapter: mysql2
-  encoding: unicode
-  database: ismile2
-  pool: 5
-  username: ismile2
-  password: Yyc!910310
-  host: ismile2.db.10014354.hostedresource.com
+#production:
+# adapter: mysql2
+# encoding: unicode
+# database: ismile2
+# pool: 5
+# username: ismile2
+# password: Yyc!910310
+# host: ismile2.db.10014354.hostedresource.com
